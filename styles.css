@@ -1,9 +1,16 @@
+/*====== General para todo el contenido Body =====*/
+
 body {
     font-family:sans-serif, serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
     background-color: #757575;
 }
+
+/*====== Header =====*/
+
 header {
     display: flex;
     align-items: center;
@@ -46,21 +53,26 @@ header {
 .reserva i {
     margin-right: 8px;
 }
+
+/* ====== Titulo inicial ====*/
+
 .titulo1 {
     font-family: 'Great Vibes', cursive;
     text-align: center;
     font-size: 2.5em;
-    font-weight: 900px;
+    font-weight: 900;
     margin-top: 100px;
     margin-bottom: 150px;
     color: #FFFFFF;    
 }
+
+/*====== Peluqueros ====*/
+
 .peluqueros {
     max-width: 1200px;            
     margin: 50px auto;            
     padding: 0 20px;
     text-align: center;
-    font-family: sans-serif, serif;
     color: #FFFFFF;
 }
 
@@ -99,6 +111,9 @@ header {
     border-radius: 10px;
     margin-bottom: 15px;
 }
+
+/* ===== Historia del local ====*/
+
 .historia {   
     max-width: 1200px;
     display: flex;
@@ -132,11 +147,15 @@ header {
     line-height: 1.6;
     margin-bottom: 30px;
 }
+
+/*====== Titulo y Video corte de pelo ====*/
+
 .cortepelo {
     max-width: 1200px;
     justify-content: center;
     text-align: center;
     margin: 50px auto;
+    margin-bottom: 200px;
 }
 .cortepelo h2 {
     color: #FFC107;
@@ -147,17 +166,93 @@ header {
     margin: 20px;
 }
 #tijeras2 {
-    transform: scaleX(-1)
+    transform: scaleX(-1);
 }
 .vcortepelo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .vcortepelo video {
-  width: 400px;
-  border-radius: 15px;
-  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.879);
-  border: 2px solid #FFC107;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(255, 193, 7, 0.879);
+    border: 2px solid #FFC107;
+}
+
+/* ====== Reseñas =====*/
+
+.reseñas {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+.reseñas h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #FFC107;
+    margin-bottom: 50px;
+}
+.opinion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    color: #FFFFFF;
+}
+.opinion article {
+    background-color: #5d5d5d;
+    border-radius: 10px;
+    padding: 30px;
+    width: 43%;
+    min-width: 250px;
+    margin-bottom: 50px;
+}
+.opinion h3 {
+     color: gold;
+}
+.redessociales {
+    background-color: #4b4a4a;
+    display: flex;
+    flex-direction: column;
+}
+.redessociales h2 {
+    text-align: center;
+    color: #FFC107;
+}
+.redessociales ul {
+    list-style-type: none;
+    margin-left: 100px;
+}
+.redessociales a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.icono-social {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.icono-social:hover{
+    transform: scale(1.2);
+}
+.fa-instagram {
+    color: #E4405F;
+}
+.fa-whatsapp {
+    color: #25D366;
+}
+.fa-location-dot {
+    color: #EA4335;
+}
+
+/* ====== Footer =====*/
+
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
 }
