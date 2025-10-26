@@ -106,16 +106,14 @@ header {
     gap: 30px;
     flex-wrap: wrap; 
     margin: 50px auto;
-    padding: 20px;
     text-align: center;
-    font-family: sans-serif, serif;
     color: #FFFFFF;
 }
 .historia article {    
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    padding: 10px;
-    width: 47%;
+    padding: 30px;
+    width: 43%;
     margin-bottom: 20px;
     box-shadow: 20px 20px 12px rgba(0, 0, 0, 0.3);
     transition: transform 1s ease, background-color 1.5s ease;
@@ -133,4 +131,33 @@ header {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 30px;
+}
+.cortepelo {
+    max-width: 1200px;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+}
+.cortepelo h2 {
+    color: #FFC107;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+.cortepelo i {
+    margin: 20px;
+}
+#tijeras2 {
+    transform: scaleX(-1)
+}
+.vcortepelo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vcortepelo video {
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.879);
+  border: 2px solid #FFC107;
 }
