@@ -19,10 +19,12 @@ header {
     background-color: #212121;
     border-bottom: 2px solid #e7e7e7;
 }
+
 .logo img {
     width: 200px;
     height: auto;    
 }
+
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -31,14 +33,17 @@ header {
     gap: 80px;
     color: white;
 }
+
 .menu ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
+
 .menu ul li a:hover {
     color: #FFC107;
 }
+
 .reserva a {
     text-decoration: none;
     color: white;
@@ -47,9 +52,11 @@ header {
     border-radius: 10px;
     font-weight: bold;
 }
+
 .reserva a:hover {
     background-color: #FFC107;
 }
+
 .reserva i {
     margin-right: 8px;
 }
@@ -81,12 +88,14 @@ header {
     margin-bottom: 50px;
     font-size: 1.7em; 
 }
+
 .peluqueros p {
     font-size: 1.2em;             
     line-height: 1.6;
     margin-bottom: 50px;
              
 }
+
 .equipo {
     display: flex;
     justify-content: center;
@@ -124,6 +133,7 @@ header {
     text-align: center;
     color: #FFFFFF;
 }
+
 .historia article {    
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -133,15 +143,18 @@ header {
     box-shadow: 20px 20px 12px rgba(0, 0, 0, 0.3);
     transition: transform 1s ease, background-color 1.5s ease;
 }
+
 .historia article:hover {
     background-color: #795548;
     transform: scale(1.05);
 }
+
 .historia h2 {
     color: #FFC107;
     margin-bottom: 20px;
     font-size: 1.7em;
 }
+
 .historia p {
     font-size: 1.2em;
     line-height: 1.6;
@@ -157,17 +170,21 @@ header {
     margin: 50px auto;
     margin-bottom: 200px;
 }
+
 .cortepelo h2 {
     color: #FFC107;
     margin-bottom: 50px;
     font-size: 2em;
 }
+
 .cortepelo i {
     margin: 20px;
 }
+
 #tijeras2 {
     transform: scaleX(-1);
 }
+
 .vcortepelo {
     display: flex;
     justify-content: center;
@@ -187,12 +204,14 @@ header {
     max-width: 1200px;
     margin: 30px auto;
 }
+
 .reseñas h2 {
     text-align: center;
     font-size: 2em;
     color: #FFC107;
     margin-bottom: 50px;
 }
+
 .opinion {
     display: flex;
     flex-wrap: wrap;
@@ -201,6 +220,7 @@ header {
     gap: 30px;
     color: #FFFFFF;
 }
+
 .opinion article {
     background-color: #5d5d5d;
     border-radius: 10px;
@@ -209,42 +229,88 @@ header {
     min-width: 250px;
     margin-bottom: 50px;
 }
+
 .opinion h3 {
-     color: gold;
+    color: gold;
 }
+
 .redessociales {
     background-color: #4b4a4a;
-    display: flex;
-    flex-direction: column;
+    padding: 20px 0 40px 0;
 }
+
 .redessociales h2 {
-    text-align: center;
     color: #FFC107;
-}
-.redessociales ul {
-    list-style-type: none;
-    margin-left: 100px;
-}
-.redessociales a{
-    text-decoration: none;
-    color: #FFFFFF;
-}
-.icono-social {
-    font-size: 50px;
+    font-size: 1.8em;
     margin-bottom: 20px;
 }
-.icono-social:hover{
+
+/* PIE DE PAGINA */
+
+.piepagina {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* SECCIÓN IZQUIERDA: TELÉFONO */
+.izquierda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+}
+
+.izquierda i {
+    color: #FFC107;
+}
+
+
+/* SECCIÓN CENTRAL: REDES SOCIALES */
+.centro {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.centro a i {
+    font-size: 1.8em;
+    transition: all 0.3s ease;
+}
+
+.centro .fa-instagram { color: #E4405F; }
+.centro .fa-whatsapp { color: #25D366; }
+
+.centro a i:hover {
+    color: #FFC107;
     transform: scale(1.2);
 }
-.fa-instagram {
-    color: #E4405F;
-}
-.fa-whatsapp {
-    color: #25D366;
-}
-.fa-location-dot {
+
+/* SECCIÓN DERECHA: UBICACIÓN */
+
+.derecha i {
     color: #EA4335;
+    font-size: 1.8em;
+    transition: all 0.3s ease;
 }
+
+.derecha i:hover {
+    color: #FFC107;
+    transform: scale(1.2);
+}
+
 
 /* ====== Footer =====*/
 
