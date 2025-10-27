@@ -1,4 +1,4 @@
-/*===== INDEX.HTML =====*/  /*==== CONTENIDO BODY GENERAL, HEADER, REDES SOCIALES Y FOOTER SE UTILIZAN PARA TODAS LAS PAGINAS ====*/
+/*===== ¡¡¡INDEX.HTML!!! =====*/  /*==== CONTENIDO BODY GENERAL, HEADER, REDES SOCIALES Y FOOTER SE UTILIZAN PARA TODAS LAS PAGINAS ====*/
 
 /*====== General para todo el contenido Body =====*/
 
@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #757575;
+    color: #FFFFFF;
 }
 
 /*====== Header =====*/
@@ -65,7 +66,16 @@ header {
 
 /* ====== Titulo inicial ====*/
 
-.titulo1 {
+.titulo {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #FFC107; 
+}
+
+#titulo1 {
     font-family: 'Great Vibes', cursive;
     text-align: center;
     font-size: 2.5em;
@@ -325,3 +335,43 @@ footer {
     background-color: #212121;
 }
 
+/*===== ¡¡¡PAGINA NUESTROS SERVICIOS!!! =====*/
+
+/*===== Nuestros servicios seccion IMAGENES =====*/
+
+.imageservicios {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    text-align: center; 
+    margin: 0 10% 0 10%; 
+}
+
+.imageservicios h2 {
+    background-color: #212121;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.imageservicios article {    
+    padding: 20px 20px 0px 20px;
+    width: 28%;                   
+    min-width: 250px;  
+}
+
+.imageservicios img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: all 0.5s ease;
+}
+
+.imageservicios img:hover {
+    box-shadow: 0 0 25px 5px rgba(255, 193, 7, 0.8);
+    transform: scale(1.03); 
+}
