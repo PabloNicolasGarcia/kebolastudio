@@ -295,6 +295,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 30px;
+    justify-content: space-evenly;
 }
 
 .centro a i {
@@ -374,4 +375,66 @@ footer {
 .imageservicios img:hover {
     box-shadow: 0 0 25px 5px rgba(255, 193, 7, 0.8);
     transform: scale(1.03); 
+}
+
+.imageservicios article:last-child {
+    margin-bottom: 100px;
+}
+
+/*===== PRECIO SERVICIOS =====*/
+
+#nuestrosservicios {
+    max-width: 1200px;
+    margin: 0 10% 0 10%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding: 20px;
+    background-color: #212121;
+    color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+#nuestrosservicios h2 {
+    font-size: 2em;
+    color: #FFC107;
+    text-align: center;
+}
+
+#nuestrosservicios h3 {
+    border-bottom: 1px solid #FFC107;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #FFC107;
+    font-size: 1.5em;
+}
+
+#nuestrosservicios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nuestrosservicios li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    border-bottom: 1px dotted #FFC107;
+    padding: 8px 0;
+    transition: all 0.5s ease;
+}
+
+#nuestrosservicios li:hover {
+    color: gold;
+}
+
+#nuestrosservicios li span:first-child {
+    font-weight: 500;
+}
+
+#nuestrosservicios li span:last-child {
+    color: #FFC107;
+    font-weight: bold;
 }
