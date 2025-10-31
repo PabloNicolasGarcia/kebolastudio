@@ -548,6 +548,10 @@ footer a:visited {
 
 /*===== NUESTRO ESTUDIO =====*/
 
+    .reserva {
+        margin-bottom: 15px;
+    }
+   
     #estudio article {
         flex-direction: column;
         margin: 20px;
