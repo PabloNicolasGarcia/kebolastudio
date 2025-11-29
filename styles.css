@@ -555,13 +555,14 @@ footer a:visited {
 }
 
 #motivo {
-    width: 150px;
+    width: 250px;
     padding: 10px;
     background-color: #e67e22;
     color: white;
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
+    text-align: center;
 }
 
 #motivo:hover {

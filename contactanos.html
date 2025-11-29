@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="javascript.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="icon" href="images/logohead.ico" type="image/x-icon">
@@ -47,7 +48,7 @@
             </article>
             <article id="contactoform">
                 <h3>Formulario de Contacto</h3>
-                <form>
+                <form id="contacto-form">
                     <label for="nombre">Nombre completo:</label>
                     <input type="text" id="nombre" name="nombre" required>
 
@@ -56,6 +57,7 @@
                     
                     <label for="motivo">Motivo de Contacto:</label>
                     <select id="motivo" name="motivo" required>
+                        <option value="">- Selecciona una opción -</option>
                         <option value="corte">Corte de pelo</option> 
                         <option value="ayuda">Consulta</option>
                         <option value="local">Informacion del local</option>
@@ -66,8 +68,7 @@
                     <label for="mensaje">Descripción:</label>
                     <textarea id="mensaje" name="mensaje" required></textarea>
 
-                    <button type="button">Enviar</button>
-
+                    <button id="enviar" type="submit">Enviar</button>
                 </form>
             </article>
         </section>

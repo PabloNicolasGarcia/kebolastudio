@@ -1,0 +1,1 @@
+document.getElementById('enviar').onclick=window.alert('Mensaje enviado. ¡Gracias por contactarnos!');
