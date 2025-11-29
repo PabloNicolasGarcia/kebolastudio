@@ -249,6 +249,11 @@ header {
 
 .opinion h3 {
     color: gold;
+    margin-bottom: 15px;
+}
+
+.oculto {
+    display: none;
 }
 
 .redessociales {
@@ -575,7 +580,7 @@ footer a:visited {
     resize: vertical;
 }
 
-#contacto button {
+#contacto button, #masreseñas {
     width: 150px;
     padding: 10px;
     background-color: #e67e22;
@@ -586,6 +591,10 @@ footer a:visited {
     cursor: pointer;
     align-self: center;
     margin-top: 20px;
+}
+
+#masreseñas {
+    margin: 0 0 20px 0;
 }
 
 #contacto button:hover {
