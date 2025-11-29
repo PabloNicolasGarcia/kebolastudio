@@ -44,25 +44,30 @@
                         ¡Esperamos saber de ti pronto!
                     </p>
                 </div>
-                <img src="images/contacto/contacto1.png" alt="Contacto">
             </article>
             <article id="contactoform">
                 <h3>Formulario de Contacto</h3>
-                <form action="#" method="post">
-                    <label for="nombre">Nombre:</label>
+                <form>
+                    <label for="nombre">Nombre completo:</label>
                     <input type="text" id="nombre" name="nombre" required>
 
                     <label for="email">Correo Electrónico:</label>
                     <input type="email" id="email" name="email" required>
-
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-                    <button type="submit">Enviar</button>
-
+                    
+                    <label for="motivo">Motivo de Contacto:</label>
                     <select id="motivo" name="motivo" required>
-                        <option value=""></option>
+                        <option value="corte">Corte de pelo</option> 
+                        <option value="ayuda">Consulta</option>
+                        <option value="local">Informacion del local</option>
+                        <option value="peluqueros">Informacion sobre peluquero</option>
+                        <option value="otro">Otro</option>
                     </select>
+
+                    <label for="mensaje">Descripción:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+
+                    <button type="button">Enviar</button>
+
                 </form>
             </article>
         </section>
